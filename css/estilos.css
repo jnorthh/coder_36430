@@ -803,7 +803,7 @@ align-items: center;
 }
 
 }
-@media screen and (max-width: 425px ) {
+@media screen and (max-width: 428px ) {
     .header__base{
       grid-template-columns:auto 23.5% auto;
       max-width: 100%;
