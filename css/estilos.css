@@ -912,14 +912,14 @@ align-items: center;
         width: 302.5px;
     }
   }
-  @media screen and (max-width: 375px ) {
+  @media screen and (max-width: 390px ) {
     .header__base{
-      grid-template-columns:auto 27.5% auto;
+      grid-template-columns:auto 23.9% auto;
       max-width: 100%;
     }
     .header__logo{
-        height: 55px;
-        width: 130px;
+        height: 52px;
+        width: 120px;
     }
     .icon-bar a{
         font-size: 17px;
