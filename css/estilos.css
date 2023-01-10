@@ -914,7 +914,7 @@ align-items: center;
   }
   @media screen and (max-width: 375px ) {
     .header__base{
-      grid-template-columns:auto 26.45% auto;
+      grid-template-columns:auto 27.5% auto;
       max-width: 100%;
     }
     .header__logo{
