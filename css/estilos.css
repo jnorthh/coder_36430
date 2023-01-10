@@ -912,3 +912,112 @@ align-items: center;
         width: 302.5px;
     }
   }
+  @media screen and (max-width: 375px ) {
+    .header__base{
+      grid-template-columns:auto 26.45% auto;
+      max-width: 100%;
+    }
+    .header__logo{
+        height: 55px;
+        width: 130px;
+    }
+    .icon-bar a{
+        font-size: 17px;
+        padding: 3.5px 3.5px;
+    }
+    .pasarela{
+      max-width: 100%;
+      grid-template-columns: auto ;
+      row-gap: 30px;
+      column-gap: 30px;
+      justify-content: center;
+    }
+    .acerca__titulo{
+      width: 100%;
+    }
+    .referencia{
+      gap: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+    }
+    .footer{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto 1fr;
+      max-width: 100%;
+    }
+    .col_2{
+      padding-right: 0px;
+    }
+    .col_3{
+      padding-right: 10px;
+    }
+    .footer_register{
+        padding-top: 0px;
+      padding-left: 0px;
+      font-size: 13px;
+    }
+    .footer__input{
+      height: 30px;
+      width: 180px;
+    }
+    .btnf__input{
+      height: 30px;
+      width: 183.55px;
+    }
+    .dsc_footer{
+      padding-left: 10px;
+      font-size: 12px;
+    }
+    .footer__form{
+        margin-bottom: 30px;
+      padding-left: 25px;
+    }
+    .menu__heading{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .footer_menu{
+        font-size: 13px;
+    }
+ 
+    .seehood{
+        width: 200px;
+    }
+    .btn_ver{
+        width: 200px;
+    }
+    .tienda__grid{
+        justify-content: center;
+        grid-template-columns: auto;  
+        max-width: 100%;
+    }
+    .tienda__grid__img{
+        padding: 0px;
+        height: 340px;
+        width: 345px;
+    }
+    .shop_category{
+        grid-template-columns: auto;
+    }
+    .gallery_image{
+        height: 250px;
+        width: 350px;
+    }
+    .input__formulario{
+        width: 300px;
+    }
+    .input__textarea{
+        width: 300px;
+    }
+    .contacto_btn_hv{
+        width: 302.5px;
+    }
+    .inputlogin{
+        width: 300px;
+    }
+    .boton_login{
+        width: 302.5px;
+    }
+  }
