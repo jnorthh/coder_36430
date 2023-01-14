@@ -648,6 +648,21 @@ align-items: center;
   .icon-bar a:hover{
     color: black;
   }
+  .hero_proyecto{
+    background-image: url(../img/RPBF22-4_1800x.webp);
+    height: 1100px;
+    width: 100%;
+  }
+  .hero_proyecto_titulo{
+    display: flex;
+    justify-content: center;
+    padding: 500px;
+    font-size:100px;
+    color: white;
+    text-align: center;
+    
+  }
+
   @media screen and (max-width: 1024px ) {
     .header__base{
       grid-template-columns:auto 7.32% auto;
@@ -910,6 +925,14 @@ align-items: center;
     }
     .boton_login{
         width: 302.5px;
+    }
+    .hero_proyecto{
+      width: auto;
+    }
+    .hero_proyecto_titulo{
+      font-size: 40px;
+      padding: 200px;
+      text-align: center;
     }
   }
   @media screen and (max-width: 390px ) {
