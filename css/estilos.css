@@ -954,6 +954,10 @@ align-items: center;
       padding: 200px;
       text-align: center;
     }
+    .faq1{
+      padding-left: 15%;
+      width: 70%;
+    }
   }
   @media screen and (max-width: 390px ) {
     .header__base{
