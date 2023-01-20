@@ -216,7 +216,6 @@ align-items: center;
     padding-top: 50px;
 }
 .btn_ver{
-    
     height: 50px;
     width: 20%;
     border: 1px solid #5c5c5c;
@@ -225,9 +224,6 @@ align-items: center;
     color: white;
     font-size: 15px;
 }
-
- 
-
 .btn_ver:hover{
     opacity: 1;
     color: black;
@@ -300,8 +296,6 @@ align-items: center;
     padding-left: 10px;
     padding-right: 10px;
 }
-
-
 /* aqui termina el index*/
 .contactanos{
     display: flex;
@@ -672,7 +666,6 @@ align-items: center;
     padding-left: 25%;
     padding-bottom: 20px;
     font-size: 14px;
-  
     }
  .faq_header{
   display: flex;

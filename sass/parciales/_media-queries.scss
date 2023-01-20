@@ -1,0 +1,390 @@
+@media screen and (max-width: 1024px ) {
+    .header__base{
+      grid-template-columns:auto 7.32% auto;
+      max-width: 100%;
+     
+    }
+    .pasarela{
+      max-width: 100%;
+      grid-template-columns: auto auto ;
+      row-gap: 30px;
+      column-gap: 30px;
+      justify-content: center; 
+    }
+    .acerca__titulo{
+      width: 100%;
+    }
+    .referencia{
+      gap: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+    }
+    .footer{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto auto;
+      max-width: 100%;
+    }
+    .col_2{
+      padding-right: 95px;
+    }
+    .col_3{
+      padding-right: 10px;
+    }
+    .footer_register{
+      padding-left: 0px;
+    }
+    .footer__input{
+      height: 40px;
+      width: 200px;
+    }
+    .btnf__input{
+      height: 40px;
+      width: 203.55px;
+    }
+    .dsc_footer{
+      padding-left: 0px;
+    }
+    .footer__form{
+      padding-left: 45px;
+    }
+    .referencia_img{
+        height: 420px;
+        width: 425px;
+    }
+    .purse{
+        height: 420px;
+        width: 425px;
+    }
+    .button_purse{
+        padding-top: 10px;
+    }
+    .shop_category{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+    }
+    .shop_category_son{
+        height: 450px;
+        width: 455px;
+    }
+    .tienda__grid__img{
+        height: 380px;
+        width: 385px;
+    }
+  }
+  @media screen and (max-width: 768px ) {
+  .header__base{
+    grid-template-columns:auto 9.5% auto;
+    max-width: 100%; 
+  }
+  .pasarela{
+    max-width: 100%;
+    grid-template-columns: auto auto ;
+    row-gap: 30px;
+    column-gap: 30px;
+    justify-content: center;
+  }
+  .acerca__titulo{
+    width: 100%;
+  }
+  .referencia{
+    gap: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    max-width: 100%;
+  }
+  .col_2{
+    padding-right: 95px;
+  }
+  .col_3{
+    padding-right: 10px;
+  }
+  .footer_register{
+    padding-left: 0px;
+  }
+  .footer__input{
+    height: 40px;
+    width: 200px;
+  }
+  .btnf__input{
+    height: 40px;
+    width: 203.55px;
+  }
+  .dsc_footer{
+    padding-left: 0px;
+  }
+  .footer__form{
+    padding-left: 45px;
+  }
+  .tienda__grid{
+    grid-template-columns: auto;
+  }
+  .tienda__grid__img{
+    height: 450px;
+    width: 455px;
+  }
+  .shop_category{
+    grid-template-columns: auto auto;
+  }
+  .shop_category_son{
+    height: 350px;
+    width: 355px;
+  }
+  .btn_ver{
+    width: 300px;
+  }
+  .seehood{
+    width: 300px;
+  }
+  .referencia_img{
+    height: 320px;
+    width: 325px;
+}
+.purse{
+    height: 320px;
+    width: 325px;
+}
+
+}
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+@media screen and (max-width: 428px ) {
+    .header__base{
+      grid-template-columns:auto 23.5% auto;
+      max-width: 100%;
+    }
+    .header__logo{
+        height: 55px;
+        width: 130px;
+    }
+    .icon-bar a{
+        font-size: 17px;
+        padding: 3.5px 3.5px;
+    }
+    .pasarela{
+      max-width: 100%;
+      grid-template-columns: auto ;
+      row-gap: 30px;
+      column-gap: 30px;
+      justify-content: center;
+    }
+    .acerca__titulo{
+      width: 100%;
+    }
+    .referencia{
+      gap: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+    }
+    .footer{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto 1fr;
+      max-width: 100%;
+    }
+    .col_2{
+      padding-right: 0px;
+    }
+    .col_3{
+      padding-right: 10px;
+    }
+    .footer_register{
+        padding-top: 0px;
+      padding-left: 0px;
+      font-size: 13px;
+    }
+    .footer__input{
+      height: 30px;
+      width: 180px;
+    }
+    .btnf__input{
+      height: 30px;
+      width: 183.55px;
+    }
+    .dsc_footer{
+      padding-left: 10px;
+      font-size: 12px;
+    }
+    .footer__form{
+        margin-bottom: 30px;
+      padding-left: 25px;
+    }
+    .menu__heading{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .footer_menu{
+        font-size: 13px;
+    }
+ 
+    .seehood{
+        width: 200px;
+    }
+    .btn_ver{
+        width: 200px;
+    }
+    .tienda__grid{
+        justify-content: center;
+        grid-template-columns: auto;  
+        max-width: 100%;
+    }
+    .tienda__grid__img{
+        padding: 0px;
+        height: 370px;
+        width: 375px;
+    }
+    .shop_category{
+        grid-template-columns: auto;
+    }
+    .gallery_image{
+        height: 300px;
+        width: 400px;
+    }
+    .input__formulario{
+        width: 300px;
+    }
+    .input__textarea{
+        width: 300px;
+    }
+    .contacto_btn_hv{
+        width: 302.5px;
+    }
+    .inputlogin{
+        width: 300px;
+    }
+    .boton_login{
+        width: 302.5px;
+    }
+    .hero_proyecto{
+      width: auto;
+    }
+    .hero_proyecto_titulo{
+      font-size: 40px;
+      padding: 200px;
+      text-align: center;
+    }
+    .faq1{
+      padding-left: 15%;
+      width: 70%;
+    }
+  }
+  @media screen and (max-width: 390px ) {
+    .header__base{
+      grid-template-columns:auto 23.9% auto;
+      max-width: 100%;
+    }
+    .header__logo{
+        height: 52px;
+        width: 120px;
+    }
+    .icon-bar a{
+        font-size: 17px;
+        padding: 3.5px 3.5px;
+    }
+    .pasarela{
+      max-width: 100%;
+      grid-template-columns: auto ;
+      row-gap: 30px;
+      column-gap: 30px;
+      justify-content: center;
+    }
+    .acerca__titulo{
+      width: 100%;
+    }
+    .referencia{
+      gap: 30px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+    }
+    .footer{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto 1fr;
+      max-width: 100%;
+    }
+    .col_2{
+      padding-right: 0px;
+    }
+    .col_3{
+      padding-right: 10px;
+    }
+    .footer_register{
+        padding-top: 0px;
+      padding-left: 0px;
+      font-size: 13px;
+    }
+    .footer__input{
+      height: 30px;
+      width: 180px;
+    }
+    .btnf__input{
+      height: 30px;
+      width: 183.55px;
+    }
+    .dsc_footer{
+      padding-left: 10px;
+      font-size: 12px;
+    }
+    .footer__form{
+        margin-bottom: 30px;
+      padding-left: 25px;
+    }
+    .menu__heading{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .footer_menu{
+        font-size: 13px;
+    }
+ 
+    .seehood{
+        width: 200px;
+    }
+    .btn_ver{
+        width: 200px;
+    }
+    .tienda__grid{
+        justify-content: center;
+        grid-template-columns: auto;  
+        max-width: 100%;
+    }
+    .tienda__grid__img{
+        padding: 0px;
+        height: 340px;
+        width: 345px;
+    }
+    .shop_category{
+        grid-template-columns: auto;
+    }
+    .gallery_image{
+        height: 250px;
+        width: 350px;
+    }
+    .input__formulario{
+        width: 300px;
+    }
+    .input__textarea{
+        width: 300px;
+    }
+    .contacto_btn_hv{
+        width: 302.5px;
+    }
+    .inputlogin{
+        width: 300px;
+    }
+    .boton_login{
+        width: 302.5px;
+    }
+  }

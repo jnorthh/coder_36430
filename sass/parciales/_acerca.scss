@@ -1,0 +1,156 @@
+/* Aqui comienza el body*/
+.acerca{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    color: rgb(17, 17, 17);
+&__titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(17, 17, 17);
+    padding-top: 40px;
+}
+}
+
+.referencia{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 60px;
+&__imagenes{
+    display: flex;
+    flex-direction: row;
+    background-image:url(../img/photoshoot.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+&__1{
+    display: flex;
+    flex-direction: row;
+    background-image:url(../img/photoshoot.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+}
+}
+.ir_tienda{
+    text-decoration: none;
+}
+.referencia__imagenes__2{
+    display: flex;
+    flex-direction: row;
+    background-image:url(../img/photoshoot.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.referencia__imagenes__3{
+    display: flex;
+    flex-direction: row;
+    background-image:url(../img/photoshoot.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.boton {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color:rgb(17, 17, 17);
+    font-size: 16px;
+&_price{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: #5c5c5c;
+    font-size: 13.5px;
+    padding-top: 13px;
+    }
+}
+.btn__temporada{
+   display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.btn_ver{
+    height: 50px;
+    width: 20%;
+    border: 1px solid #5c5c5c;
+    opacity: 1;
+    background-color: #5c5c5c;
+    color: white;
+    font-size: 15px;
+&:hover{
+        opacity: 1;
+        color: black;
+        background-color:white;
+        transition: 0.5s ease;
+    }
+}
+
+.btn_a_ver{
+    text-decoration: none;
+}
+.purses_heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    color: black;
+}
+.price_purse{
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 16px;
+}
+.prc_purse{
+    display: grid;
+   padding-top: 14px;
+   font-size: 13px;
+   color: #5c5c5c;
+   justify-content: center;
+
+}
+.button_purse{
+   display: flex;
+   justify-content: center; 
+   padding: 65px;
+
+}
+.seehood{
+    opacity: 1;
+    height: 50px;
+    width: 20%;
+    border: 1px solid #5c5c5c;
+    opacity: 1;
+    background-color: #5c5c5c;
+    color: white;
+    font-size: 15px;
+&:hover{
+        opacity: 1;
+        border: 0.5px solid black;
+        background-color: white;
+        color: black;
+        transition: 0.5s ease;
+    }
+}
+.btn_a_hoodies{
+    text-decoration: none;
+}
+.pasarela{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding-top: 60px;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+.purse{
+    background-image: url(../img/photoshoot.jpeg);
+}
+.upfoo{
+    color: rgb(17, 17, 17);
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* aqui termina el body*/

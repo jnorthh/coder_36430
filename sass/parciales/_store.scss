@@ -1,0 +1,101 @@
+.thsirts__heading{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    padding-top: 2rem;
+    font-weight: bold;
+}
+.shop_category{
+    display: grid;
+    justify-content: space-around;
+    padding-top: 5rem;
+    grid-template-columns:auto auto auto;
+    grid-template-rows:auto auto auto auto auto auto auto auto auto  ;
+    row-gap: 40px;
+&_son{
+        display: grid;
+        background-image:url(../img/photoshoot.jpeg);
+    }
+}
+.tshirt__type{
+    display: grid;
+    justify-content: center;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.tshirt__price{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #5c5c5c;
+    padding-top: 20px;
+    padding-bottom: 40px; 
+}
+.shop_category_space{
+    padding-top: 10px;
+}
+.ropa{
+    display: flex;
+    flex-direction: column;
+    padding-top: 125px;
+    padding-right: 10px;
+&__a{
+        display: flex;
+       text-decoration: none;
+       color:#5c5c5c;
+       font-size: 16px;
+       padding: 10px 20px;
+&:hover{
+        color: black;
+    }
+    }
+}
+.ropa__navegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.ropa__list{
+    display: flex;
+    list-style: none;
+}
+.ropa__item:hover{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.tienda__heading{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    padding-top: 50px;
+}
+.tienda__grid{
+    display: grid;
+    justify-content: center;
+    padding-top: 100px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    row-gap: 20px;
+    column-gap: 40px;
+&__img{
+        background-image:url(../img/photoshoot.jpeg);
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 30px;
+    }
+}
+.tienda_grid_space{
+    padding-bottom: 40px;
+}
+.tienda__grid__text{
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+}
+.tienda__grid__price{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: #5c5c5c;
+}
